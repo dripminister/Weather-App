@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    background-image: url("https://1.bp.blogspot.com/-TWg_0zuY1CQ/X--sAZ4h21I/AAAAAAAAdeg/HMx-BrBXnJg1_1FxcS3-fbZtGTxEn1KJgCLcBGAsYHQ/w296-h640/V1-01012021-AMOLED-LANDSCAPE-HD.png");
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#weather-input{
+    padding: 15px 0;
+    color: black;
+    text-shadow: none;
+    font-size: 22px;
+    width: 100%;
+    max-width: 500px;
+    padding-left: 5px;
+}
+
+#search-img{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    padding: 3px;
+    cursor: pointer;
+    background: gray;
+}
+
+
+
+#time{
+    margin-top: 20px;
+}
+
+#date{
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#main-temp{
+    margin-top: 10px;
+}
+
+#temp-span, #current-weather{
+    font-size: 30px;
+    margin-top: 30px;
+}
